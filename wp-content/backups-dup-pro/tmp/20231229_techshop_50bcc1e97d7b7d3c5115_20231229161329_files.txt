@@ -1,0 +1,19 @@
+{"p":"files for your website should be uploaded here!","s":0,"n":1}
+{"p":"index.php","s":405,"n":1}
+{"p":"index2.html","s":2067,"n":1}
+{"p":"license.txt","s":19915,"n":1}
+{"p":"readme.html","s":7399,"n":1}
+{"p":"speed-kit-sw.js","s":107536,"n":1}
+{"p":"wp-activate.php","s":7211,"n":1}
+{"p":"wp-blog-header.php","s":351,"n":1}
+{"p":"wp-comments-post.php","s":2323,"n":1}
+{"p":"wp-config-sample.php","s":3013,"n":1}
+{"p":"wp-cron.php","s":5638,"n":1}
+{"p":"wp-links-opml.php","s":2502,"n":1}
+{"p":"wp-load.php","s":3927,"n":1}
+{"p":"wp-login.php","s":50924,"n":1}
+{"p":"wp-mail.php","s":8525,"n":1}
+{"p":"wp-settings.php","s":26409,"n":1}
+{"p":"wp-signup.php","s":34385,"n":1}
+{"p":"wp-trackback.php","s":4885,"n":1}
+{"p":"xmlrpc.php","s":3154,"n":1}

@@ -1,0 +1,118 @@
+<?php
+
+use WPStaging\Backup\Ajax\ScheduleList;
+use WPStaging\Backup\BackupDownload;
+use WPStaging\Backup\BackupScheduler;
+use WPStaging\Core\WPStaging;
+use WPStaging\Framework\Adapter\Directory;
+use WPStaging\Framework\Facades\Escape;
+use WPStaging\Framework\TemplateEngine\TemplateEngine;
+
+/**
+ * @see \WPStaging\Backup\Ajax\Listing::render
+ *
+ * @var TemplateEngine              $this
+ * @var array                       $directories
+ * @var string                      $urlAssets
+ * @var Directory                   $directory
+ * @var bool                        $hasSchedule
+ * @var bool                        $isProVersion
+ * @var bool                        $isValidLicense
+ * @var bool                        $isPersonalLicense
+ * @var string                      $licenseType
+ */
+
+WPStaging::make(BackupDownload::class)->deleteUnfinishedDownloads();
+
+/** @var BackupScheduler */
+$backupScheduler = WPStaging::make(BackupScheduler::class);
+$cronStatus      = $backupScheduler->checkCronStatus();
+$cronMessage     = $backupScheduler->getCronMessage();
+if ($cronMessage !== '') { ?>
+    <div class="notice <?php echo $cronStatus === true ? 'notice-warning' : 'notice-error'; ?>" style="margin-bottom: 10px;">
+        <p><?php echo Escape::escapeHtml($cronMessage); ?></p>
+    </div>
+<?php }
+
+// Will show a locked message if the process is locked
+require WPSTG_VIEWS_DIR . 'job/locked.php';
+
+$disabledPropertyCreateBackup = $isLocked ? 'disabled' : '';
+
+?>
+
+<div class="wpstg-did-you-know">
+    <?php
+    echo Escape::escapeHtml(
+        __('<strong>New:</strong> One-click backup restore and migration even if WordPress is down?', 'wp-staging')
+    );
+    ?>
+    </br>
+    <?php
+    printf(
+        '%s %s',
+        '<span style="font-weight: bold">' . esc_html__('Download WP Staging Restore and Extraction Tool:', 'wp-staging') . '</span>',
+        '<a href="https://wp-staging.com/docs/wp-staging-restore/">' . esc_html__('Read More or Upgrade to Pro', 'wp-staging') . '</a>'
+    );
+    ?>
+</div>
+
+<div id="wpstg-step-1">
+    <button id="wpstg-new-backup" class="wpstg-next-step-link wpstg-blue-primary wpstg-button" <?php echo esc_attr($disabledPropertyCreateBackup); ?>>
+        <img class="wpstg--dashicons wpstg-mr-10px" src="<?php echo esc_url($urlAssets); ?>svg/update.svg" alt="create" />
+        <?php esc_html_e('Create Backup', 'wp-staging'); ?>
+    </button>
+    <button type="button" id="wpstg-upload-backup" class="wpstg-button wpstg-border-thin-button">
+        <img class="wpstg--dashicons wpstg-mr-10px" src="<?php echo esc_url($urlAssets); ?>svg/upload-cloud.svg" alt="upload" />
+        <?php esc_html_e('Upload Backup', 'wp-staging'); ?>
+    </button>
+    <button id="wpstg-manage-backup-schedules" class="wpstg-button wpstg-border-thin-button">
+        <img class="wpstg--dashicons wpstg-mr-10px" src="<?php echo esc_url($urlAssets); ?>svg/edit.svg" alt="edit" />
+        <?php esc_html_e('Edit Backup Plans', 'wp-staging'); ?>
+    </button>
+    <?php if (defined('WPSTG_REMOTE_SYNC_ENABLED') && WPSTG_REMOTE_SYNC_ENABLED) : ?>
+    <button id="wpstg-remote-sync" class="wpstg-next-step-link wpstg-blue-primary wpstg-button wpstg-ml-15px wpstg--tooltip" disabled>
+        <img class="wpstg--dashicons wpstg-mr-10px" src="<?php echo esc_url($urlAssets); ?>svg/push.svg" alt="remote sync" />
+        <?php echo esc_html__("Remote Sync (See Demo)", "wp-staging"); ?>
+        <span class="wpstg--tooltiptext" style="width: 350px;line-height: 1.5;margin-top: -1px;white-space: normal;">
+                    <?php esc_html_e('Connect this site to any other WordPress site to pull and sync its data remotely with one click.', 'wp-staging'); ?>
+                    <br>
+                    <?php esc_html_e('(Requires WP Staging Pro version.)', 'wp-staging'); ?>
+                    <br>
+                    <br>
+                    <a href="https://wp-staging.com" target="_blank" rel="noopener noreferrer" class="wpstg-link-btn wpstg-blue-primary" style="transition:none"><?php echo esc_html__('Watch a demo', 'wp-staging'); ?></a>
+        </span>
+    </button>
+    <?php endif; ?>
+</div>
+
+<div id="wpstg-backup-runs-info">
+    <?php WPStaging::make(ScheduleList::class)->renderNextBackupSnippet(); ?>
+</div>
+<div class="wpstg-backup-listing-container">
+    <div id="wpstg-existing-backups">
+        <div id="backup-messages"></div>
+        <div class="wpstg-backup-list">
+            <span id="local-backup-title"><?php echo esc_html__('Local Backups:', 'wp-staging'); ?></span>
+            <ul id="wpstg-backup-list-ul">
+                <li><?php esc_html_e('Searching for existing backups...', 'wp-staging'); ?></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<?php
+include(WPSTG_VIEWS_DIR . 'job/modal/process.php');
+include(WPSTG_VIEWS_DIR . 'job/modal/success.php');
+include(WPSTG_VIEWS_DIR . 'otp/overlay.php');
+include(WPSTG_VIEWS_DIR . 'backup/modal/partials/backup-success.php');
+include(__DIR__ . '/modal/backup.php');
+include(__DIR__ . '/modal/download-modal.php');
+include(__DIR__ . '/modal/upload.php');
+include(__DIR__ . '/modal/manage-schedules.php');
+include(__DIR__ . '/modal/remote-upload.php');
+include(__DIR__ . '/modal/edit-schedule-modal.php');
+include(__DIR__ . '/modal/restore.php');
+include(__DIR__ . '/restore-wait.php');
+?>
+<div id="wpstg-delete-confirmation"></div>

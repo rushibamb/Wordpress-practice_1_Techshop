@@ -1,0 +1,655 @@
+{
+    "RPT": {
+        "ScanTime": "0.143 sec.",
+        "ScanFile": "20231229_techshop_50bcc1e97d7b7d3c5115_20231229161329_scan.json",
+        "ScanCreated": "2023-12-29 16:13:34",
+        "ScanPath": "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/backups-dup-pro\/tmp\/20231229_techshop_50bcc1e97d7b7d3c5115_20231229161329_scan.json"
+    },
+    "ARC": {
+        "Size": "283.76KB",
+        "DirCount": "1",
+        "FileCount": "19",
+        "FullCount": "20",
+        "USize": 290569,
+        "UDirCount": 1,
+        "UFileCount": 19,
+        "UFullCount": 20,
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/.opcache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/.tmb",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-admin",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/ai1wm-backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/backups-dup-lite",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/backups-dup-pro",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/backups-dup-pro",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/backupwordpress",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/bps-backup",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/cache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/content\/cache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/contents\/cache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/infinitewp\/backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/managewp\/backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/old-cache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/plugins\/really-simple-captcha\/tmp",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/plugins\/wordfence\/tmp",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/updraft",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/aiowps_backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/backup-guard",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/backupbuddy_backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/backupbuddy_temp",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/mainwp\/backup",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/pb_backupbuddy",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/snapshots",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/sucuri",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/wp-clone",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/wp_all_backup",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads\/wpbackitup_backups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/wfcache",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/wishlist-backup",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/wpvividbackups",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            ".DS_Store",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/.htaccess",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/.user.ini",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/php.ini",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/web.config",
+            "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-config.php",
+            "dbcache",
+            "debug_log",
+            "error_log",
+            "objectcache",
+            "pgcache",
+            "ws_ftp.log"
+        ],
+        "FilterExtsAll": [],
+        "FilteredCoreDirs": {
+            "3": "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-admin"
+        },
+        "FilteredSites": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "Big": "Good",
+            "AddonSites": "Good",
+            "UnreadableItems": "Good",
+            "showCreateFuncStatus": "Good",
+            "showCreateFunc": true,
+            "HasImportableSites": true,
+            "HasNotImportableSites": false,
+            "HasFilteredCoreFolders": true,
+            "HasFilteredSiteTables": false,
+            "HasFilteredSites": false,
+            "Network": "Good",
+            "IsDBOnly": 0,
+            "PackageIsNotImportable": false
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Subsites": [
+            {
+                "id": 1,
+                "domain": "aryanshop.me",
+                "path": "\/",
+                "blogname": "TEch-shop",
+                "blog_prefix": "wpco_",
+                "filteredTables": [],
+                "adminUsers": [
+                    {
+                        "ID": "1",
+                        "user_login": "vivek",
+                        "id": "1"
+                    }
+                ],
+                "fullHomeUrl": "https:\/\/aryanshop.me",
+                "fullSiteUrl": "https:\/\/aryanshop.me",
+                "uploadPath": "wp-content\/uploads",
+                "fullUploadPath": "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads",
+                "fullUploadSafePath": "\/home\/vol17_1\/unaux.com\/unaux_34393270\/htdocs\/wp-content\/uploads",
+                "fullUploadUrl": "https:\/\/aryanshop.me\/wp-content\/uploads",
+                "filteredPaths": []
+            }
+        ]
+    },
+    "SRV": {
+        "Brand": {
+            "LogoAttachmentExists": false,
+            "LogoCount": 0,
+            "LogoFinded": 0,
+            "LogoImageExists": true,
+            "LogoImages": [],
+            "Name": "Default",
+            "Notes": "The default content used when a brand is not defined"
+        },
+        "HOST": [],
+        "PHP": {
+            "websrv": true,
+            "openbase": false,
+            "maxtime": true,
+            "openssl": true,
+            "mysqli": true,
+            "allowurlfopen": true,
+            "curlavailable": true,
+            "arch64bit": true,
+            "minMemory": true,
+            "version": true,
+            "ALL": "Warn"
+        },
+        "WP": {
+            "version": true,
+            "core": false,
+            "ismu": false,
+            "ismuplus": false,
+            "ALL": "Warn"
+        }
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "Size": "Good",
+            "Rows": "Good",
+            "Triggers": "Good"
+        },
+        "Size": "24.96MB",
+        "Rows": "13,518",
+        "TableCount": 81,
+        "TableList": {
+            "wpco_actionscheduler_actions": {
+                "Case": 0,
+                "Rows": "176",
+                "Size": "96.47KB",
+                "USize": "98784"
+            },
+            "wpco_actionscheduler_claims": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "3.01KB",
+                "USize": "3086"
+            },
+            "wpco_actionscheduler_groups": {
+                "Case": 0,
+                "Rows": "9",
+                "Size": "9.27KB",
+                "USize": "9496"
+            },
+            "wpco_actionscheduler_logs": {
+                "Case": 0,
+                "Rows": "514",
+                "Size": "57.14KB",
+                "USize": "58512"
+            },
+            "wpco_aioseo_cache": {
+                "Case": 0,
+                "Rows": "31",
+                "Size": "97.3KB",
+                "USize": "99636"
+            },
+            "wpco_aioseo_notifications": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "8.39KB",
+                "USize": "8592"
+            },
+            "wpco_aioseo_posts": {
+                "Case": 0,
+                "Rows": "193",
+                "Size": "127.09KB",
+                "USize": "130144"
+            },
+            "wpco_cartflows_ca_cart_abandonment": {
+                "Case": 0,
+                "Rows": "17",
+                "Size": "29.43KB",
+                "USize": "30132"
+            },
+            "wpco_cartflows_ca_email_history": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wpco_cartflows_ca_email_templates": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "3.69KB",
+                "USize": "3780"
+            },
+            "wpco_cartflows_ca_email_templates_meta": {
+                "Case": 0,
+                "Rows": "18",
+                "Size": "3.76KB",
+                "USize": "3852"
+            },
+            "wpco_commentmeta": {
+                "Case": 0,
+                "Rows": "6",
+                "Size": "10.21KB",
+                "USize": "10456"
+            },
+            "wpco_comments": {
+                "Case": 0,
+                "Rows": "78",
+                "Size": "25.79KB",
+                "USize": "26408"
+            },
+            "wpco_duplicator_pro_entities": {
+                "Case": 0,
+                "Rows": "7",
+                "Size": "16.31KB",
+                "USize": "16704"
+            },
+            "wpco_duplicator_pro_packages": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "51.35KB",
+                "USize": "52584"
+            },
+            "wpco_export_page_to_html_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_export_urls_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_e_events": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_options": {
+                "Case": 0,
+                "Rows": "950",
+                "Size": "20.21MB",
+                "USize": "21194268"
+            },
+            "wpco_postmeta": {
+                "Case": 0,
+                "Rows": "2,370",
+                "Size": "1.37MB",
+                "USize": "1434736"
+            },
+            "wpco_posts": {
+                "Case": 0,
+                "Rows": "196",
+                "Size": "563.8KB",
+                "USize": "577336"
+            },
+            "wpco_simply_static_pages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wpco_termmeta": {
+                "Case": 0,
+                "Rows": "62",
+                "Size": "12.74KB",
+                "USize": "13048"
+            },
+            "wpco_terms": {
+                "Case": 0,
+                "Rows": "55",
+                "Size": "15.21KB",
+                "USize": "15572"
+            },
+            "wpco_term_relationships": {
+                "Case": 0,
+                "Rows": "73",
+                "Size": "9.52KB",
+                "USize": "9746"
+            },
+            "wpco_term_taxonomy": {
+                "Case": 0,
+                "Rows": "55",
+                "Size": "9.6KB",
+                "USize": "9828"
+            },
+            "wpco_urls": {
+                "Case": 0,
+                "Rows": "7,467",
+                "Size": "1.78MB",
+                "USize": "1866068"
+            },
+            "wpco_usermeta": {
+                "Case": 0,
+                "Rows": "83",
+                "Size": "25.89KB",
+                "USize": "26512"
+            },
+            "wpco_users": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "8.11KB",
+                "USize": "8304"
+            },
+            "wpco_wc_admin_notes": {
+                "Case": 0,
+                "Rows": "111",
+                "Size": "48.91KB",
+                "USize": "50088"
+            },
+            "wpco_wc_admin_note_actions": {
+                "Case": 0,
+                "Rows": "146",
+                "Size": "36.6KB",
+                "USize": "37480"
+            },
+            "wpco_wc_category_lookup": {
+                "Case": 0,
+                "Rows": "20",
+                "Size": "2.33KB",
+                "USize": "2388"
+            },
+            "wpco_wc_customer_lookup": {
+                "Case": 0,
+                "Rows": "12",
+                "Size": "6.77KB",
+                "USize": "6928"
+            },
+            "wpco_wc_download_log": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "4.05KB",
+                "USize": "4144"
+            },
+            "wpco_wc_order_addresses": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wpco_wc_order_coupon_lookup": {
+                "Case": 0,
+                "Rows": "22",
+                "Size": "4.64KB",
+                "USize": "4756"
+            },
+            "wpco_wc_order_operational_data": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wpco_wc_order_product_lookup": {
+                "Case": 0,
+                "Rows": "33",
+                "Size": "9.16KB",
+                "USize": "9378"
+            },
+            "wpco_wc_order_stats": {
+                "Case": 0,
+                "Rows": "28",
+                "Size": "12.77KB",
+                "USize": "13072"
+            },
+            "wpco_wc_order_tax_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wc_product_attributes_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wc_product_download_directories": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "9.22KB",
+                "USize": "9444"
+            },
+            "wpco_wc_product_meta_lookup": {
+                "Case": 0,
+                "Rows": "34",
+                "Size": "11.95KB",
+                "USize": "12232"
+            },
+            "wpco_wc_rate_limits": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wpco_wc_reserved_stock": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wc_tax_rate_classes": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "9.07KB",
+                "USize": "9288"
+            },
+            "wpco_wc_webhooks": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_api_keys": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wpco_woocommerce_attribute_taxonomies": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_downloadable_product_permissions": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "6.26KB",
+                "USize": "6412"
+            },
+            "wpco_woocommerce_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_order_itemmeta": {
+                "Case": 0,
+                "Rows": "462",
+                "Size": "65.09KB",
+                "USize": "66652"
+            },
+            "wpco_woocommerce_order_items": {
+                "Case": 0,
+                "Rows": "66",
+                "Size": "6.77KB",
+                "USize": "6936"
+            },
+            "wpco_woocommerce_payment_tokenmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_payment_tokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_sessions": {
+                "Case": 0,
+                "Rows": "42",
+                "Size": "83.31KB",
+                "USize": "85308"
+            },
+            "wpco_woocommerce_shipping_zones": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_shipping_zone_locations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_shipping_zone_methods": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_tax_rates": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_woocommerce_tax_rate_locations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "2.1KB",
+                "USize": "2152"
+            },
+            "wpco_wpaicg_chatlogs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_chattokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_formtokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_form_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_imagetokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_image_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_promptbase_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_prompttokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wpco_wpaicg_token_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wpco_wpfm_backup": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "2.19KB",
+                "USize": "2240"
+            },
+            "wpco_wpforms_payments": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wpco_wpforms_payment_meta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wpco_wpforms_tasks_meta": {
+                "Case": 0,
+                "Rows": "23",
+                "Size": "3.51KB",
+                "USize": "3592"
+            },
+            "wpco_wpmailsmtp_debug_events": {
+                "Case": 0,
+                "Rows": "127",
+                "Size": "64KB",
+                "USize": "65536"
+            },
+            "wpco_wpmailsmtp_tasks_meta": {
+                "Case": 0,
+                "Rows": "8",
+                "Size": "2.53KB",
+                "USize": "2592"
+            },
+            "wpco_wtmgdp_log": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "6.73KB",
+                "USize": "6896"
+            },
+            "wpco_wt_mgdp_action_history": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "2.11KB",
+                "USize": "2160"
+            },
+            "wpco_wt_mgdp_ftp": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            }
+        },
+        "FilteredTables": []
+    },
+    "Status": 1
+}

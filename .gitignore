@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# WordPress core (optional if you want a lighter repo)
+wp-admin/
+wp-includes/
+
+# Uploads (huge + environment specific)
+wp-content/uploads/
+
+# Cache & logs
+wp-content/cache/
+wp-content/debug.log
+
+# Environment specific
+wp-config.php
+
+# Node / build artifacts (if any)
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
